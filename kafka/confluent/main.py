@@ -30,4 +30,3 @@ def test_confluent_complex(generate, process, size, batch_size):
         complex = time.time() - start
 
     print(f"produce: {produce}, complex: {complex}")
-
